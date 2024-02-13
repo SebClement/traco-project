@@ -1,0 +1,21 @@
+.main-section {
+  display: flex;
+  min-height: 100vh;
+  flex: 1;
+  overflow-y: auto;
+}
+
+.content-section {
+  padding: 20px;
+}
+
+.app_boards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.app_boards_board {
+  min-width: 290px;
+  width: 200px;
+}
