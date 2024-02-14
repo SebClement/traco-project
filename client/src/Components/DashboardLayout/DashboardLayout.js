@@ -157,7 +157,6 @@ const DashboardLayout = () => {
   };
 
   const updateCard = (boardId, cardId, updatedCard) => {
-    console.log("request to update boards");
     console.log(boardId, cardId);
     fetch(`/boards/${boardId}/cards/${cardId}`, {
       method: "PUT",

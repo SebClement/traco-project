@@ -104,9 +104,7 @@ function CardInfo(props) {
   };
 
   const handleDone = () => {
-    console.log("handleDone function called");
     if (props.updateCard) {
-      console.log("Updating card:", values);
       props.updateCard(props.boardId, values.id, values);
     }
     if (props.onClose) props.onClose();
